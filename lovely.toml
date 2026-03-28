@@ -1,0 +1,12 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = -1
+
+[[patches]]
+[patches.pattern]
+target = 'game.lua'
+match_indent = true
+pattern = '''if not G.debug_UI_toggle then '''
+position = 'before'
+payload = '''GLASSJOKER.draw_background()'''

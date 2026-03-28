@@ -1,0 +1,11 @@
+{
+	"id": "glassjoker",
+	"name": "Glass Joker",
+	"author": ["notmario"],
+	"description": "swap the background",
+	"prefix": "gjoker",
+	"main_file": "main.lua",
+	"badge_colour": "000000",
+	"version": "1.0.0",
+	"allow_redistribution": true
+}
